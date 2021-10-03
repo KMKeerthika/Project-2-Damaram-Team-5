@@ -50,7 +50,5 @@ It provides services to create a strong technical and online presence for an ind
 <ul>
   <li>Keerthika</li>
   <li>Hari Prasanth</li>
-  <li>Karthik</li>
   <li>Manoj</li>
-  <li>Fahad</li>
 </ul>
