@@ -1,0 +1,78 @@
+/* ----side bar------ */
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    /* background-color: #4BD1A0; */
+    background-color: #FF9C00;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    background-color: #4BD1A0;
+    color: white;
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  .content {
+    margin-left: 200px;
+}
+
+/* ------users CRUD------ */
+
+#users {
+    /* min-height: 81.5vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; */
+    background-color: black;
+
+  }
+
+  #users .card{
+    border: none;
+    background-color: #4BD1A0;
+    border-radius: 0.9375rem;
+    padding-top: 40px;
+    border-radius: 0.9375rem;
+    width: 330px;
+    height: 230px;
+  }
+
+  #pt-3 h3 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+  }
+
+  
+  #pt-3 p {
+    color: yellow;
+  }
+  
+  .btn {
+    color: white;
+    background-color: #ff5100;
+  }
+
+  .btn:hover {
+    color: black;
+    background-color: rgb(231, 5, 156);
+  }
